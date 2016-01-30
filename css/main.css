@@ -1,0 +1,42 @@
+/*for carousel*/
+
+.c-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    max-height: 600px;
+    /* use this, or not */
+    margin: auto;
+}
+
+
+/*for grid system*/
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+/*for homework page*/
+
+.side {
+    text-align: center;
+    height: 100px;
+    background-color: #77FF00;
+    margin: 5px;
+}
+
+.description {
+    text-align: center;
+    height: 100px;
+    background-color: #FFFF33;
+}

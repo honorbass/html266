@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="NTU CSIE Information System Training Course">
+    <meta name="keywords" content="Keyword 1,Keyword 2">
+    <meta name="description" content="description">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>honorbass</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <ul class="nav nav-pills">
+            <a href="#" class="navbar-brand">it's HonorBass</a>
+            <li class="active"><a data-toggle="tab" href="#title1">Home</a></li>
+            <li><a data-toggle="tab" href="#title2">Works</a></li>
+            <li><a data-toggle="tab" href="#title3">Blogs</a></li>
+            <li><a data-toggle="tab" href="#title4">Collections</a></li>
+            <li><a data-toggle="tab" href="#title5">Contact</a></li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <!-- page1 index and carousel -->
+        <div id="title1" class="tab-pane fade in active">
+            <div class="c-wrapper">
+                <div class="carousel slide" id="topCarousel" data-ride="carousel">
+                    <!--indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#topCarousel" data-slide-to="1"></li>
+                        <li data-target="#topCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!--carousel inner-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active"><img class="first-slide" src="https://placem.at/places?h=600&w=1200" alt="">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>this is honorbass' webpage.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"><img class="second-slide" src="https://placekitten.com/1200/600" alt="">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>There are many things which are far away form complete.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"><img class="third-slide" src="https://placem.at/things?h=600&w=1200" alt="">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>I will try to improve by practicing.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- control -->
+                    <a class="left carousel-control" href="#topCarousel" role="botton" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span></a>
+                    <a class="right carousel-control" href="#topCarousel" role="botton" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">next</span></a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="thumbnails">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://placebear.com/300/600" alt="">
+                            <h1>Self Profiling</h1>
+                            <p>leave a note for what I've done and where I've gone.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://placekitten.com/g/300/600" alt="">
+                            <h1>World news</h1>
+                            <p>Collect world from internet or anywhere by myself.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://placem.at/things?w=300&h=600" alt="">
+                            <h1>Random thoughts</h1>
+                            <p>anything worth noting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- page2 homeworks -->
+        <div id="title2" class="tab-pane fade">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="side">
+                            <h1 class=workNum><a href="html/hwOne.html" target="_blank">HW#1</a></h1>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="description">
+                            <h1>homework1</h1>
+                            <p>use grid system to build up a webside with a good frame.</p>
+                            <p>(there is only bulit by css using float only)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="description">
+                            <h1>homework2</h1>
+                            <p>use media query to build up a webside with responsive website design.</p>
+                            <p>(not done yet)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="side">
+                            <h1 class=workNum><a href="#">HW#2</a></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="side">
+                            <h1 class=workNum><a href="#">HW#3</a></h1>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="description">
+                            <h1>homework3</h1>
+                            <p>under construction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- page3 blog and notes -->
+        <div id="title3" class="tab-pane fade">
+            <h1>title 3</h1>
+            <p>lorem</p>
+        </div>
+        <div id="title4" class="tab-pane fade">
+            <h1>title 4</h1>
+            <p>lorem</p>
+        </div>
+        <div id="title5" class="tab-pane fade">
+            <h1>title 5</h1>
+            <p>lorem</p>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
